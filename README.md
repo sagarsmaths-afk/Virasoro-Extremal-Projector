@@ -6,10 +6,10 @@ Exact symbolic computation of the **Virasoro extremal projector** components $P[
 
 ## Mathematical Overview
 
-Let $\mathrm{Vir} = \bigoplus_{m \in \mathbb{Z}} \mathbb{C} L_m \oplus \mathbb{C} c$ be the Virasoro Lie algebra with commutation relations:
+Let $$\mathrm{Vir} = \bigoplus_{m \in \mathbb{Z}} \mathbb{C} L_m \oplus \mathbb{C} c$$ be the Virasoro Lie algebra with commutation relations:
 $$[L_m, L_n] = (m - n) L_{m+n} + \frac{m^3 - m}{12} \delta_{m+n, 0} c, \qquad [c, \mathrm{Vir}] = 0.$$
 
-With respect to the triangular decomposition $\mathrm{Vir} = \mathrm{Vir}_- \oplus \mathfrak{h} \oplus \mathrm{Vir}_+$ (where $\mathfrak{h} = \mathbb{C} L_0 \oplus \mathbb{C} c$ and $\mathrm{Vir}_\pm = \bigoplus_{m > 0} \mathbb{C} L_{\pm m}$), the **extremal projector** $P$ is the unique formal operator in a completion of the localized universal enveloping algebra $U'(\mathrm{Vir})$ satisfying:
+With respect to the triangular decomposition $$\mathrm{Vir} = \mathrm{Vir}_- \oplus \mathfrak{h} \oplus \mathrm{Vir}_+$$ (where $$\mathfrak{h} = \mathbb{C} L_0 \oplus \mathbb{C} c$$ and $$\mathrm{Vir}_\pm = \bigoplus_{m > 0} \mathbb{C} L_{\pm m}$$), the **extremal projector** $$P$$ is the unique formal operator in a completion of the localized universal enveloping algebra $$U'(\mathrm{Vir})$$ satisfying:
 $$L_m P = 0 \quad (m > 0), \qquad P L_{-m} = 0 \quad (m > 0), \qquad [L_0, P] = 0, \qquad P^2 = P, \qquad P[0] = 1.$$
 
 For each integer partition $\lambda = (\lambda_1 \le \lambda_2 \le \dots \le \lambda_k)$ of $n$ ($\lambda \vdash n$), define the PBW monomials:
