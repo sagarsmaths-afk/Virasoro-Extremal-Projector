@@ -116,9 +116,7 @@ where $K_m(L_0, c) = \prod_{rs = m} \psi_{r,s}(L_0, c)$ is the primitive level-$
 $$\begin{aligned}
 D_{1}(L_0, c) &= L_0 - 1 \\[4pt]
 D_{2}(L_0, c) &= \left(L_0 - 1\right) \left(16 L_0^{2} + 2 L_0 c - 74 L_0 - 3 c + 84\right) \\[4pt]
-
 D_{3}(L_0, c) &= \left(L_0 - 1\right) \left(3 L_0^{2} + L_0 c - 25 L_0 - 2 c + 50\right) \left(16 L_0^{2} + 2 L_0 c - 74 L_0 - 3 c + 84\right) \\[4pt]
-
 D_{4}(L_0, c) &= \left(L_0 - 1\right) \left(8 L_0 + c - 33\right) \left(3 L_0^{2} + L_0 c - 25 L_0 - 2 c + 50\right) \left(16 L_0^{2} + 2 L_0 c - 74 L_0 - 3 c + 84\right) \\
 
 &\quad \times \left(16 L_0^{2} + 10 L_0 c - 210 L_0 - 25 c + 650\right)
